@@ -1,0 +1,58 @@
+// 颜色
+$colors: (
+  "primary": #d8a74f,
+  "info-1": #7aa7ff,
+  "info": #4f86ff,
+  "white": #ffffff,
+  "light": #e7f0ff,
+  "grey-1": #9cacc2,
+  "grey": #68788f,
+  "dark-1": #223044,
+  "dark": #111b2b,
+  "black-1": #070d17,
+  "black": #000000,
+);
+
+// 修饰器高度
+$dv-dec-height: 20px;
+
+// 字体大小
+$sm-font-size: 13px;
+$base-font-size: 16px;
+$md-font-size: 18px;
+$lg-font-size: 24px;
+$title-font-size: 30px;
+
+// 主题色
+$theme-color: #050a13;
+$theme-sub-color: rgba(8, 17, 31, 0.76);
+$panel-border-color: rgba(112, 150, 205, 0.24);
+$panel-glow-color: rgba(79, 134, 255, 0.14);
+$text-primary-color: #eef4ff;
+$text-secondary-color: #9cacc2;
+$accent-cyan-color: #6f9dff;
+$accent-blue-color: #4f86ff;
+$warning-color: #d8a74f;
+$danger-color: #e86c5b;
+
+// 各模块宽高
+$box-width1: 300px;
+$box-height1: 410px;
+
+$box-width2: 300px;
+$box-height2: 410px;
+
+$box-width3: 720px;
+$box-height3: 410px;
+
+$box-width4: 300px;
+$box-height4: 410px;
+
+$box-width5: 300px;
+$box-height5: 410px;
+
+$box-height6: 460px;
+
+$box-height7: 460px;
+
+$chart-header-height: 38px;

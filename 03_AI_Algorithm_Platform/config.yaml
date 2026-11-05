@@ -1,0 +1,17 @@
+algorithms:
+  algorithm:
+    args: '{}'
+    args_intro: '{}'
+    file: algo/algorithm.py.py
+    intro: this is test
+  电气设备缺陷检测模型算法:
+    args: '{"model_name": "best.pt", "input_conf":0.5}'
+    args_intro: "{\"model_name\": \"\u6A21\u578B\u540D\", \"input_conf\":\"\u7F6E\u4FE1\
+      \u5EA6\"}"
+    file: algo/电气设备缺陷检测模型算法.py
+    intro: 这是一个电气设备缺陷检测模型算法，用于检测无人机图像中的电气设备缺陷。
+  电气设备语义分割模型算法:
+    args: '{"model_name": "电气设备语义分割模型.pt"}'
+    args_intro: "{\"model_name\": \"\u6A21\u578B\u540D\"}"
+    file: algo/电气设备语义分割模型算法.py
+    intro: 这是一个电气设备语义分割模型算法，用于对无人机图像中的电气设备进行像素级分割识别。

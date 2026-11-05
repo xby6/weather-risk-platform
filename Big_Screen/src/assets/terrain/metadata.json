@@ -1,0 +1,23 @@
+{
+  "bounds": [
+    118.816231,
+    38.689833,
+    125.821111,
+    43.519559
+  ],
+  "mercatorBounds": [
+    2.0737344357601546,
+    0.7333394834844228,
+    2.195992655467255,
+    0.8452925013610132
+  ],
+  "width": 2048,
+  "height": 1875,
+  "heightMaxMetres": 2400,
+  "tileZoom": 9,
+  "source": "Mapzen Terrain Tiles (Terrarium), global SRTM/GMTED2010 and ETOPO1 contributors",
+  "sourceUrl": "https://registry.opendata.aws/terrain-tiles/",
+  "attributionUrl": "https://github.com/tilezen/joerd/blob/master/docs/attribution.md",
+  "accessed": "2026-10-20",
+  "note": "DEM-derived shaded relief, not satellite imagery; display height is exaggerated."
+}

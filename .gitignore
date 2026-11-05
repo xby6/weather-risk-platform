@@ -1,0 +1,101 @@
+# System/editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.local
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+venv1/
+env/
+ENV/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Node/Vue
+node_modules/
+dist/
+dist-ssr/
+build/
+coverage/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Logs and runtime files
+logs/
+log/
+*.log
+tmp/
+temp/
+*.tmp
+*.pid
+
+# Uploaded/business runtime data
+**/uploads/
+**/upload/
+**/downloads/
+**/download/
+**/runtime/
+**/media/
+**/storage/
+
+# Algorithm/model runtime artifacts
+**/model_storage/
+**/uploaded_models/
+**/uploaded_algorithms/
+**/task_files/
+**/task_store.json
+**/algorithm_results/
+**/algorithm_reports/
+**/checkpoints/
+**/runs/
+**/weights/
+*.pt
+*.pth
+*.onnx
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.ckpt
+*.bin
+
+# Databases and local caches
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+.cache/
+.ipynb_checkpoints/
+
+# Local deliverables and experiment outputs
+outputs/
+diagram/
+.codex-ppt-process/
+111/
+*.mp4
+*.zip
+.env.*.example
+!.env.example

@@ -1,0 +1,10 @@
+{
+  "algorithmId": "tabpfn_interface_smoke_v1",
+  "algorithmName": "TabPFN接口联调模型（非真实推理）",
+  "algorithmType": "tabular",
+  "version": "v1.0-smoke",
+  "featureOrder": "temperature,humidity,wind_speed,wind_direction,precipitation,history_icing_thickness",
+  "remark": "仅用于验证模型上传、算法登记、任务执行和结果查询接口；不是训练后的TabPFN模型。",
+  "file": "tabpfn_interface_smoke_v1.pkl",
+  "sha256": "c059856b9bb6c09df8adc8e6c4c86471abeafc89754f742bde1cce5ae1630fec"
+}

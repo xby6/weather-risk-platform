@@ -1,0 +1,25 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="21" y1="15" x2="109" y2="116" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#153A6B"/>
+      <stop offset="1" stop-color="#071A2D"/>
+    </linearGradient>
+    <linearGradient id="grid" x1="29" y1="35" x2="103" y2="92" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6BE7FF"/>
+      <stop offset="1" stop-color="#4C8DFF"/>
+    </linearGradient>
+    <linearGradient id="bolt" x1="69" y1="35" x2="45" y2="96" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFDB7A"/>
+      <stop offset="1" stop-color="#FF8A3D"/>
+    </linearGradient>
+    <filter id="glow" x="7" y="7" width="114" height="114" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+  </defs>
+  <circle cx="64" cy="64" r="54" fill="#2D7DFF" opacity=".18" filter="url(#glow)"/>
+  <path d="M64 12L107 37V87L64 112L21 87V37L64 12Z" fill="url(#bg)" stroke="#5FCBFF" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M34 45H94M34 64H94M34 83H94M45 36V92M64 31V97M83 36V92" stroke="url(#grid)" stroke-width="4" stroke-linecap="round" opacity=".55"/>
+  <path d="M38 72C33 72 29 68 29 63C29 58 33 54 38 54C40 47 47 42 55 42C63 42 70 47 73 54C81 54 88 61 88 70C88 79 81 86 72 86H41C34 86 29 80 29 73C29 72 29 72 29 71" stroke="#D9F8FF" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M69 34L47 69H62L55 96L82 57H66L69 34Z" fill="url(#bolt)" stroke="#FFF3B0" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M26 88L43 88M85 40L101 40M92 94L102 94" stroke="#6BE7FF" stroke-width="4" stroke-linecap="round" opacity=".9"/>
+</svg>

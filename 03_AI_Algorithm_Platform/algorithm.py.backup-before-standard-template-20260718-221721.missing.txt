@@ -1,0 +1,8 @@
+Original file backup marker.
+
+Path: D:\Work_space\project\Weather\03_AI_Algorithm_Platform\algorithm.py
+Status before standard template update: file did not exist.
+Created at: 20260718-221721
+
+This marker is kept because the user requested algorithm.py to be backed up
+before applying the unified algorithm/model development standard.
